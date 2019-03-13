@@ -10,6 +10,7 @@ function johnLennonFacts(facts) {
   let i = 0;
   while(i < facts.length) {
     facts[0] = facts[0] + "!!!";
+    i++;
   }
   return facts;
 }
@@ -18,7 +19,6 @@ function iLoveTheBeatles(number) {
   do {
     result.push("I love the Beatles!");
     number++;
-
   } while (number < 15);
   return result;
 }
